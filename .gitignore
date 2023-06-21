@@ -1,0 +1,4 @@
+/target
+/ruby.wasm
+/wasi-sdk
+/tmp
