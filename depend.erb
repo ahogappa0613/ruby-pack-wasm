@@ -1,0 +1,16 @@
+require "erb"
+
+name = ARGV[0]
+puts ERB.new(DATA.read).run
+
+__END__
+link.filelist:
+	echo $(foreach obj,$(OBJS),$(abspath $(obj))) > $@
+
+<%= name %>.a: link.filelist
+
+<%# js-core.o: $(srcdir)/bindgen/rb-js-abi-host.h
+
+bindgen/%.o: $(srcdir)/bindgen/%.c
+	@mkdir -p "$(@D)"
+	$(CC) -c -I$(srcdir)/bindgen -o $@ $< %>

@@ -2,4 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "byebug"
+# gem "nokogiri", git: 'https://github.com/sparklemotion/nokogiri.git'
+
+gem 'byebug'
+
+# gem 'sqlite3', git: 'https://github.com/sparklemotion/sqlite3-ruby.git'

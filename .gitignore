@@ -2,3 +2,6 @@
 /ruby.wasm
 /wasi-sdk
 /tmp
+
+*.wasm
+.DS_Store
