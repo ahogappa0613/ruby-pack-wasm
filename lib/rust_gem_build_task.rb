@@ -24,7 +24,7 @@ module RubyWasm
     end
 
     def wasi_vfs_path
-      ENV["GIT_WASI_VFS_PATH"
+      ENV["GIT_WASI_VFS_PATH"]
     end
 
     def cargo_new_lib(dir)
