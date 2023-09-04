@@ -8,9 +8,3 @@ link.filelist:
 	echo $(foreach obj,$(OBJS),$(abspath $(obj))) > $@
 
 <%= name %>.a: link.filelist
-
-<%# js-core.o: $(srcdir)/bindgen/rb-js-abi-host.h
-
-bindgen/%.o: $(srcdir)/bindgen/%.c
-	@mkdir -p "$(@D)"
-	$(CC) -c -I$(srcdir)/bindgen -o $@ $< %>

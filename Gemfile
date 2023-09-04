@@ -2,8 +2,6 @@
 
 source "https://rubygems.org"
 
-# gem "nokogiri", git: 'https://github.com/sparklemotion/nokogiri.git'
+gem 'rust_gem', git: 'https://github.com/ahogappa0613/rust_gem.git'
 
-gem 'byebug'
-
-# gem 'sqlite3', git: 'https://github.com/sparklemotion/sqlite3-ruby.git'
+gem 'c_lang_gem', git: 'https://github.com/ahogappa0613/c_lang_gem.git'

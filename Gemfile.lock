@@ -1,21 +1,25 @@
 GIT
-  remote: https://github.com/sparklemotion/sqlite3-ruby.git
-  revision: 676b1a7ee71e6e32e52c1f84cf24caf456415916
+  remote: https://github.com/ahogappa0613/c_lang_gem.git
+  revision: a1222332d763575173d3004b663b560a863b391d
   specs:
-    sqlite3 (1.6.3)
-      mini_portile2 (~> 2.8.0)
+    c_lang_gem (0.1.0)
+
+GIT
+  remote: https://github.com/ahogappa0613/rust_gem.git
+  revision: dab72e9d99370d28543bb945345450a1e93631cd
+  specs:
+    rust_gem (0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.8.2)
 
 PLATFORMS
-  arm64-darwin-22
-  x86_64-darwin-21
+  arm64-darwin-23
 
 DEPENDENCIES
-  sqlite3!
+  c_lang_gem!
+  rust_gem!
 
 BUNDLED WITH
-   2.3.14
+   2.4.10

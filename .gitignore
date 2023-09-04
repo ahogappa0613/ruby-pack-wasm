@@ -5,3 +5,5 @@
 
 *.wasm
 .DS_Store
+
+.vscode
