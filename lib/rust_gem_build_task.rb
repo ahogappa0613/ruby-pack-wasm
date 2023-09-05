@@ -44,7 +44,7 @@ module RubyWasm
     end
 
     def crate_types
-      %w[lib cdylib]
+      %w[rlib cdylib]
     end
 
     def replace_cargo_toml(dir)
